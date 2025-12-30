@@ -45,10 +45,12 @@ const Login = () => {
       setLoading(true)
       const res = await loginApi(form)
 
-      const token = res.data.token
+      const { token, user } = res.data.data
 
       localStorage.setItem('token', token)
-      navigate('/')
+      localStorage.setItem('user', JSON.stringify(user))
+
+      navigate('/')   
     } catch (error) {
       setErrors({
         api: error.response?.data?.message || 'Login failed',
@@ -57,6 +59,7 @@ const Login = () => {
       setLoading(false)
     }
   }
+
 
   return (
     <div className="card p-4 shadow" style={{ width: 380 }}>

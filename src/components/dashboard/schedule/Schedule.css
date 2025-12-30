@@ -1,0 +1,149 @@
+.schedule-wrapper {
+  max-width: 320px;
+  margin: 20px auto;
+  font-family: "Inter", sans-serif;
+}
+
+.schedule-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+/* Header */
+.schedule-header h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+
+.week-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.day-box {
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.day-box .date {
+  display: block;
+  font-weight: 600;
+}
+
+.day-box.active {
+  background: #4f46e5;
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+.day-box.active .date,
+.day-box.active .day {
+  color: #ffffff;
+}
+
+/* Body */
+.schedule-body {
+  margin-top: 20px;
+}
+
+.time-slot {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 20px;
+}
+
+.time {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+/* Event cards */
+.event-card {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.event-card h6 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.event-card p {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: #6b7280;
+}
+
+/* Colors */
+.event-red {
+  background: #fde2e2;
+  color: #ef4444;
+}
+
+.event-blue {
+  background: #e0edff;
+  color: #3b82f6;
+}
+
+.event-yellow {
+  background: #fff7d6;
+  color: #f59e0b;
+}
+/* Skeleton Loader */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f3f4f6 25%,
+    #e5e7eb 37%,
+    #f3f4f6 63%
+  );
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.skeleton-time {
+  width: 40px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.skeleton-card {
+  height: 52px;
+  border-radius: 12px;
+  margin-left: 45px;
+}
+.event-meeting {
+  background: #fde2e2;
+  color: #ef4444;
+}
+
+.event-task {
+  background: #e0edff;
+  color: #3b82f6;
+}
+
+.event-reminder {
+  background: #fff7d6;
+  color: #f59e0b;
+}
+

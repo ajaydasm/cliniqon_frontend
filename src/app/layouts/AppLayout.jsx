@@ -1,18 +1,18 @@
+import Header from "../../components/layout/header/Header"
+import Sidebar from "../../components/layout/sidebar/Sidebar"
+
 const AppLayout = ({ children }) => {
   return (
-    <div className="d-flex">
+    <div className="d-flex vh-100">
       {/* Sidebar */}
-      <aside className="bg-dark text-white p-3" style={{ width: 250 }}>
-        Sidebar
-      </aside>
+      <Sidebar />
 
       {/* Main */}
       <div className="flex-grow-1">
-        <header className="bg-light p-3 border-bottom">
-          Header
-        </header>
 
-        <main className="p-4">
+        <Header />
+
+        <main className="p-0 overflow-y-auto" style={{ height: 'calc(100vh - 90px)' }}>
           {children}
         </main>
       </div>
