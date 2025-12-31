@@ -171,9 +171,15 @@ Laravel & React Developer
 📄 License
 This project is for internal / learning / dashboard use.
 
+# ScreenShots
 
 
-
+<img width="1907" height="892" alt="calling_apis" src="https://github.com/user-attachments/assets/312d0a05-2f3c-49ef-b175-6e3c8d3e8bcd" />
+<img width="1912" height="968" alt="login" src="https://github.com/user-attachments/assets/01d61a13-d35e-49fe-865e-ac3da6df292a" />
+<img width="1665" height="261" alt="localStorage" src="https://github.com/user-attachments/assets/e5b098eb-72ad-4c80-b66a-e5335dba5c59" />
+<img width="1895" height="891" alt="Dashboard3" src="https://github.com/user-attachments/assets/9b17788e-65a7-4c7f-8e9b-e932af796906" />
+<img width="1571" height="823" alt="Dashboard1" src="https://github.com/user-attachments/assets/7dd9e52b-746e-4434-967d-0836564de10e" />
+<img width="1910" height="912" alt="Dashboard" src="https://github.com/user-attachments/assets/a56c5345-cf2e-475a-814f-c6b39e6bb7ba" />
 
 
 
